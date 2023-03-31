@@ -3,7 +3,6 @@
     <a href="#" target="_blank"> <img src="https://img.shields.io/tokei/lines/github/nexusflipp/KrnlPatternFinder"/> </a>
     <a href="#" target="_blank"> <img src="https://img.shields.io/github/issues/nexusflipp/KrnlPatternFinder"/> </a>
     <a href="#" target="_blank"> <img src="https://img.shields.io/github/languages/top/nexusflipp/KrnlPatternFinder"/> </a> 
-    <a href="#" target="_blank"> <img src="https://img.shields.io/github/languages/count/nexusflippKrnlPatternFinder"/> </a> 
     <a href="#" target="_blank"> <img src="https://img.shields.io/github/last-commit/nexusflipp/KrnlPatternFinder"/> </a> 
     <a href="#" target="_blank"> <img src="https://img.shields.io/github/repo-size/nexusflipp/KrnlPatternFinder"/> </a> 
     <a href="#" target="_blank"> <img src="https://img.shields.io/github/languages/code-size/nexusflipp/KrnlPatternFinder"/> </a> 
