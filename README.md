@@ -14,7 +14,7 @@ This solution aims to make it easier to test kernel byte patterns. The solution 
 ## Features Of The Driver
 *   Is able to get the base address of system modules.
 *   Is able to get basic information about the segments of system modules.
-*   Is able to find byte patterns, and return the address of these (IDA style).
+*   Is able to find byte patterns, and return the address of these (CODE style).
 *   Is able to communicate with a usermode process via IOCTL requests.
 
 ## Features Of The Process
