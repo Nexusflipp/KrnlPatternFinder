@@ -1,4 +1,14 @@
 # Kernel Byte Pattern Finder
+<p align="center"> 
+    <a href="#" target="_blank"> <img src="https://img.shields.io/tokei/lines/github/nexusflipp/KrnlPatternFinder"/> </a>
+    <a href="#" target="_blank"> <img src="https://img.shields.io/github/issues/nexusflipp/KrnlPatternFinder"/> </a>
+    <a href="#" target="_blank"> <img src="https://img.shields.io/github/languages/top/nexusflipp/KrnlPatternFinder"/> </a> 
+    <a href="#" target="_blank"> <img src="https://img.shields.io/github/languages/count/nexusflippKrnlPatternFinder"/> </a> 
+    <a href="#" target="_blank"> <img src="https://img.shields.io/github/last-commit/nexusflipp/KrnlPatternFinder"/> </a> 
+    <a href="#" target="_blank"> <img src="https://img.shields.io/github/repo-size/nexusflipp/KrnlPatternFinder"/> </a> 
+    <a href="#" target="_blank"> <img src="https://img.shields.io/github/languages/code-size/nexusflipp/KrnlPatternFinder"/> </a> 
+</p>
+
 This solution aims to make it easier to test kernel byte patterns. The solution consists of two sub-projects:
 *   A kernel driver which queries all the necessary information through requests.
 *   A usermode process which makes it easier to handle requests.
