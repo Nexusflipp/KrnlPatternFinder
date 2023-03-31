@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controller", "Controller\Controller.vcxproj", "{20A20BBF-66A2-4D88-A6A0-6DE8F011B6DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Driver", "Driver\Driver.vcxproj", "{70157642-2026-4686-8F30-12252B48869B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AA776D2-163C-45B3-9329-F7DD78580054}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20A20BBF-66A2-4D88-A6A0-6DE8F011B6DE}.Debug|x64.ActiveCfg = Debug|x64
+		{20A20BBF-66A2-4D88-A6A0-6DE8F011B6DE}.Debug|x64.Build.0 = Debug|x64
+		{20A20BBF-66A2-4D88-A6A0-6DE8F011B6DE}.Release|x64.ActiveCfg = Release|x64
+		{20A20BBF-66A2-4D88-A6A0-6DE8F011B6DE}.Release|x64.Build.0 = Release|x64
+		{70157642-2026-4686-8F30-12252B48869B}.Debug|x64.ActiveCfg = Debug|x64
+		{70157642-2026-4686-8F30-12252B48869B}.Debug|x64.Build.0 = Debug|x64
+		{70157642-2026-4686-8F30-12252B48869B}.Debug|x64.Deploy.0 = Debug|x64
+		{70157642-2026-4686-8F30-12252B48869B}.Release|x64.ActiveCfg = Release|x64
+		{70157642-2026-4686-8F30-12252B48869B}.Release|x64.Build.0 = Release|x64
+		{70157642-2026-4686-8F30-12252B48869B}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60FE64CC-51EC-48EC-8E84-79767BC20477}
+	EndGlobalSection
+EndGlobal
