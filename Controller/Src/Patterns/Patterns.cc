@@ -4,7 +4,7 @@
 
 std::array<Drivers, 3> DriverInfo = 
 {{
-	{ L"win32k.sys",		0, 0, 0, nullptr},
+	{ L"win32k.sys",	0, 0, 0, nullptr},
 	{ L"win32kfull.sys",	0, 0, 0, PAT::GetWin32KFull},
 	{ L"win32kbase.sys",	0, 0, 0, nullptr}
 }};
