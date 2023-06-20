@@ -36,5 +36,5 @@ After that you can execute the Controller, and it will ask you to paste the full
 ## Credits
 *   [Pavel Yosifovich](https://scorpiosoftware.net/): For several awesome books that helped me a lot.
 *   [Reactos](https://reactos.org/) and the [Vergilius Project](https://www.vergiliusproject.com/): For helping me keep my structures updated.
-*   [DarthTon](https://github.com/DarthTon): For showing me how ioctl communication works.
-*   [Microsoft](https://learn.microsoft.com/en-us/docs/): For their extensive Winapi documentation.
+*   [DarthTon](https://github.com/DarthTon): For showing me how Ioctl communication works.
+*   [Microsoft](https://learn.microsoft.com/en-us/docs/): For their extensive WinAPI documentation.
