@@ -35,10 +35,14 @@ NTSTATUS MEM::GetKrnlModBase(IN LPCWSTR szModName, OUT PULONGLONG ullModBase)
 
 NTSTATUS MEM::FindKrnlModSeg(IN ULONGLONG ullModBaseAddr, IN CONST CHAR* szSegName, OUT ULONGLONG* ullSegBaseAddr, OUT SIZE_T* stSizeOfSeg)
 {
-	if (!ullModBaseAddr || REINTER<PIMAGE_DOS_HEADER>(ullModBaseAddr)->e_magic != MZ)
+	if (!ullModBaseAddr)
 		return STATUS_INVALID_ADDRESS;
 
-	CONST AUTO ntHeader			= REINTER<PIMAGE_NT_HEADERS64>(ullModBaseAddr + REINTER<PIMAGE_DOS_HEADER>(ullModBaseAddr)->e_lfanew);
+	PIMAGE_DOS_HEADER pImgDosHeader = REINTER<PIMAGE_DOS_HEADER>(ullModBaseAddr);
+	if (pImgDosHeader->e_magic != MZ)
+		return STATUS_INVALID_NOT_MZ;
+
+	CONST AUTO ntHeader			= REINTER<PIMAGE_NT_HEADERS64>(ullModBaseAddr + pImgDosHeader->e_lfanew);
 	AUTO SegmentHeader			= IMAGE_FIRST_SECTION(ntHeader);
 
 	for (USHORT i = 0; i < ntHeader->FileHeader.NumberOfSections; i++, SegmentHeader++)
