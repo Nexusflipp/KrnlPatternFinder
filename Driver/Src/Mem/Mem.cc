@@ -40,7 +40,7 @@ NTSTATUS MEM::FindKrnlModSeg(IN ULONGLONG ullModBaseAddr, IN CONST CHAR* szSegNa
 
 	PIMAGE_DOS_HEADER pImgDosHeader = REINTER<PIMAGE_DOS_HEADER>(ullModBaseAddr);
 	if (pImgDosHeader->e_magic != MZ)
-		return STATUS_INVALID_NOT_MZ;
+		return STATUS_INVALID_IMAGE_NOT_MZ;
 
 	CONST AUTO ntHeader			= REINTER<PIMAGE_NT_HEADERS64>(ullModBaseAddr + pImgDosHeader->e_lfanew);
 	AUTO SegmentHeader			= IMAGE_FIRST_SECTION(ntHeader);
